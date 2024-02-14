@@ -1,0 +1,21 @@
+package com.internshala;
+public class LogicalOR {
+	public static void main(String[] args) {
+		int num1 = 10;
+		int num2 = 20;
+		int x = 50;
+		int y = 100;
+		boolean result =  (num1>num2)||(x>y);
+		//false||false result - false
+		System.out.println(result);
+		boolean result1 = (num1<num2)||(x>y);
+		//true||false result-false
+		System.out.println(result1);
+		boolean result2 = (num1>num2)||(x<y);
+		//false||true result-false
+		System.out.println(result2);
+		boolean result3 = (num1<num2)||(x<y);
+		//true||true result- true
+		System.out.println(result3);
+	}
+}
