@@ -1,0 +1,15 @@
+package com.internshala;
+public class IfElse {
+	public static void main(String[] args) {
+		// If Statement
+		int num = 49;
+		if( num %2== 0) {
+			System.out.println("Number "+num+" is Even");
+		}
+		//If Else Statement
+		else {
+			System.out.println("Number "+num+" is Odd");
+		}
+	}
+
+}
