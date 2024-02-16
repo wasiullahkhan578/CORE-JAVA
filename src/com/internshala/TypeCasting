@@ -1,0 +1,16 @@
+package com.internshala;
+public class TypeCasting {
+	public static void main(String[] args) {
+		//Implicit typecasting
+		int radius = 500;
+		double newradius = radius;
+		System.out.println(newradius);
+		//output should be 500.0
+		//Explicit typecasting
+		double diameter = 800.567;
+		int newdiameter = (int) diameter;
+		System.out.println(newdiameter);
+		//output should be 800
+	}
+
+}
