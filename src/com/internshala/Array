@@ -1,0 +1,22 @@
+package com.internshala;
+public class Array {
+    public static void main (string [] args){
+        //marks->5
+        int [] marks = new int[5];
+        marks[0] = 75;
+        marks[1] = 80;
+        marks[2] = 79;
+        marks[3] = 78;
+        marks[4] = 85;
+        //iterate
+        //average
+        //for
+        int sum;
+        for(int i=0; i<marks.length; i++){
+            sum = sum+marks[i]; 
+        }
+        float avg;
+        avg = sum/marks.length;
+        System.out.println("Average Marks = "+avg);
+    }
+}
