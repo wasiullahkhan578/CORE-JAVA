@@ -1,0 +1,6 @@
+public class TwodArray{
+    public static void main ( String [] args){
+        int st_marks [] [] = { {55,56,57,58},{65,67,68,69}};
+        System.out.println(st_marks);
+    }
+}
